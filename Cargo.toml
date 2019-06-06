@@ -31,3 +31,4 @@ members = [
 "diesel_migrations:1.4.0" = { path = "diesel_migrations" }
 "migrations_internals:1.4.0" = { path = "diesel_migrations/migrations_internals" }
 "migrations_macros:1.4.0" = { path = "diesel_migrations/migrations_macros" }
+"rand:0.6.5" = { git = "https://github.com/rust-random/rand", tag = "0.6.5" }
