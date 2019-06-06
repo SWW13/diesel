@@ -50,3 +50,6 @@ name = "tests"
 [badges]
 travis-ci = { repository = "diesel-rs/diesel" }
 appveyor = { repository = "diesel-rs/diesel" }
+
+[replace]
+"rand:0.6.5" = { git = "https://github.com/rust-random/rand", tag = "0.6.5" }
